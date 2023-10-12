@@ -30,6 +30,8 @@ public static void main(String[] args) {
         else if (jabatan.equalsIgnoreCase("karyawan")) {
             gajiLembur = jumlahJamLembur * 75000;
         }
+        else
+        System.out.println("Jabatan invalid, silahkan masukkan jabatan yang sesuai");
 
         totalGajiLembur += gajiLembur;
     }
