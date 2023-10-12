@@ -31,7 +31,7 @@ public static void main(String[] args) {
             gajiLembur = jumlahJamLembur * 75000;
         }
         else
-        System.out.println("Jabatan invalid, silahkan masukkan jabatan yang sesuai");
+        System.out.println("Jabatan invalid");
 
         totalGajiLembur += gajiLembur;
     }

@@ -27,6 +27,8 @@ public static void main(String[] args) {
                 break;
             }
         }
+        System.out.println("Tidak Jadi cuti");
+        break;
     } while (jatahCuti > 0);
 }
 }
